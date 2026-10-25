@@ -1,0 +1,9 @@
+{
+  "name": "youtube-clickbait-triage-extension-tests",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/js/*.test.cjs",
+    "test:browser": "node --test tests/browser/*.test.cjs"
+  },
+  "devDependencies": { "jsdom": "26.1.0", "playwright": "1.64.1" }
+}

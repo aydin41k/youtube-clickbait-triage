@@ -1,0 +1,2 @@
+/* Category state stays on cards; visible pixels live in the independent front layer. */
+[data-yct-badge] { display: block; font: 10px/1.3 system-ui, sans-serif; color: #767676; padding: 2px 5px; pointer-events: none; }

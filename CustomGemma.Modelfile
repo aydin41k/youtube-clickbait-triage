@@ -1,0 +1,9 @@
+# CUSTOM local composition, not the official gemma4:e4b package.
+# Copied existing Gemma4 E4B decoder + official E4B vision/audio projector.
+FROM .runtime/import/gemma4-core.gguf
+FROM .runtime/import/mmproj.gemma4-e4b.gguf
+TEMPLATE {{ .Prompt }}
+RENDERER gemma4
+PARSER gemma4
+PARAMETER num_ctx 32768
+PARAMETER temperature 0

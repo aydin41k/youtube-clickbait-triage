@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Local packaging triage</title><link rel="stylesheet" href="popup.css"></head>
+<body><h1>Local Gemma triage</h1><p id="status" role="status">Connecting…</p>
+<p>Cards are checked automatically, one at a time. Each can take a minute or longer.</p>
+<ul><li class="clickbait">Red: clickbait</li><li class="irrelevant">Yellow: irrelevant</li><li class="sensational">Dark grey: sensational</li><li class="valid">Green: valid</li></ul>
+<p>Border only when a validated estimate is strictly above 50%. Unavailable evidence, pending cards and no majority stay uncoloured. These are uncalibrated estimates.</p>
+<button id="pause" type="button">Pause</button> <button id="retry" type="button">Retry / clear session cache</button>
+<p><button id="runs" type="button">Runs &amp; results</button></p>
+<p id="help">Missing companion? Follow the README registration steps, then retry. English captions are required.</p>
+<script src="popup.js"></script></body></html>

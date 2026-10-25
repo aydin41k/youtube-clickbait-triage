@@ -1,0 +1,5 @@
+body { width: 320px; padding: 12px; font: 14px/1.45 system-ui, sans-serif; color: #17212b; }
+h1 { font-size: 18px; } li { margin: 7px 0; padding-left: 8px; border-left: 4px solid; }
+.clickbait { border-color: #dc2626; } .irrelevant { border-color: #eab308; }
+.sensational { border-color: #4b5563; } .valid { border-color: #16a34a; }
+button { padding: 7px; margin-bottom: 6px; cursor: pointer; }
